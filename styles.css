@@ -104,12 +104,18 @@ body {
 .app{
     width: 1.5rem;
     height:1.5rem;
+    filter: invert(50%) sepia(100%) saturate(10%) hue-rotate(180deg) brightness(60%) contrast(100%);
+    fill: #000000;
+    
 }
 
 .profile{
     width: 2rem;
     height:2rem;
     border-radius: 100%;
+    margin-right: 10px;
+    scale: 135%;
+
 }
 
 .search{
